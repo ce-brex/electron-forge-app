@@ -44,8 +44,8 @@ app.on('activate', () => {
 
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and import them here.
-if (!app.isDefaultProtocolClient("electron-test")) {
-  app.setAsDefaultProtocolClient("electron-test");
+if (!app.isDefaultProtocolClient("forge-test")) {
+  app.setAsDefaultProtocolClient("forge-test");
 }
 
 app.on("will-finish-launching", () => {
